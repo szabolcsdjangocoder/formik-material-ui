@@ -13,6 +13,8 @@ jobs:
       - name: Build
         run: |
           yarn install --frozen-lockfile
+          git config "ciaranliedeman@gmail.com"
+          git config "Ciaran Liedeman"
           yarn deploy
         working-directory: docs
         env:
