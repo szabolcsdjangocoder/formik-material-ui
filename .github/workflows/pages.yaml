@@ -13,6 +13,7 @@ jobs:
       - name: Build
         run: |
           yarn install --frozen-lockfile
-          yarn build
           yarn deploy
         working-directory: docs
+        env:
+          GIT_USER: cliedeman
