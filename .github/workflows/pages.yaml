@@ -18,3 +18,5 @@ jobs:
           git config --global user.name "GitHub Pages Action"
           yarn deploy
         working-directory: docs
+        env:
+          GIT_USER: cliedeman
