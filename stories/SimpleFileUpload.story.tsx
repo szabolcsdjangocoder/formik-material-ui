@@ -1,8 +1,9 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import { Formik, Form, Field } from 'formik';
 import { action } from '@storybook/addon-actions';
-import { withStyles, Theme } from '@material-ui/core';
+import { Theme } from '@mui/material';
+import withStyles from '@mui/styles/withStyles';
 import * as Yup from 'yup';
 
 import Wrapper from './Wrapper';

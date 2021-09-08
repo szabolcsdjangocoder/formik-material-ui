@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import { Formik, Form, Field } from 'formik';
 import Wrapper from './Wrapper';
 import { action } from '@storybook/addon-actions';
 
 import { RadioGroup } from '../packages/formik-material-ui/src/RadioGroup';
-import { FormControlLabel, Radio, LinearProgress } from '@material-ui/core';
+import { FormControlLabel, Radio, LinearProgress } from '@mui/material';
 import FormValues from './FormValues';
 
 interface Values {

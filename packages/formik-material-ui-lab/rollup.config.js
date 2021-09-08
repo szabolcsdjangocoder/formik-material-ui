@@ -5,9 +5,9 @@ const external = [
   'react',
   'react-native',
   'formik',
-  '@material-ui/core/TextField',
-  '@material-ui/lab/ToggleButtonGroup',
-  '@material-ui/lab/Autocomplete',
+  '@mui/material/TextField',
+  '@mui/lab/ToggleButtonGroup',
+  '@mui/lab/Autocomplete',
 ];
 
 export default [
